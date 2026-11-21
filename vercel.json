@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/:locale(en|ar|az|bg|ca|cs|da|de|el|es|et|fa|fi|fr|he|hr|hu|id|it|ja|ka|ko|lt|lv|ms|nb|nl|pl|pt|ro|ru|sk|sl|sr|sv|th|tr|uk|vi|zh-CN|zh-HK|zh-TW)/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:locale(en|ar|az|bg|ca|cs|da|de|el|es|et|fa|fi|fr|he|hr|hu|id|it|ja|ka|ko|lt|lv|ms|nb|nl|pl|pt|ro|ru|sk|sl|sr|sv|th|tr|uk|vi|zh-CN|zh-HK|zh-TW)",
+      "destination": "/index.html"
+    }
+  ]
+}
